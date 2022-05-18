@@ -4,7 +4,7 @@ SRCS = *.c *.h
 CC = gcc
 build: tema3
 
-tema3: main.c
+tema3:
 	$(CC) $(CFLAGS) -o tema3 $(SRCS) $(LDFLAGS)
 
 clean: 
